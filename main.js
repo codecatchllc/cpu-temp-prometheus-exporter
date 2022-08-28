@@ -14,7 +14,7 @@ exec('sensors|grep "high"|grep "Core"|cut -d "+" -f2|cut -d "." -f1|sort -nr|sed
         return;
     }
 
-    res.end(`r710_cpu_temp ${stdout}`);
+    res.end(`server_cpu_temp ${stdout}`);
     });
 }
 
