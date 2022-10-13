@@ -25,7 +25,7 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 ```
-
+- Reload the systemctl daemon `systemctl daemon-reload`
 - Then start the service `systemctl start cpu-exporter.service`
 - Check that the service is in active state `systemctl status cpu-exporter.service`
 - Now enable the service to run on startup `systemctl enable cpu-exporter.service`
