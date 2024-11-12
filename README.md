@@ -1,10 +1,10 @@
-#CPU TEMP PROMETHEUS EXPORTER
+# CPU TEMP PROMETHEUS EXPORTER
 
 You can utilize this on any machine that is able to execute the `sensors` command with the help of the `lm-sensors` apt package
 
 - `apt install lm-sensors`
 
-#Installation
+## Installation
 
 - Clone this repository onto the target machine
 - Install node
